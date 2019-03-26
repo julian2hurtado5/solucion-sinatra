@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <% if @nombre != nil || @nombre != "" %>
+    <% if @nombre != nil && @nombre != "" %>
         <h1>  Hola <%= @nombre %>! </h1>
       <% else %>
         <h1> Hola desconocido! </h1>
