@@ -1,10 +1,5 @@
-require "sinatra"
+require 'sinatra'
 
 get '/' do
-   erb :index
-end
-
-post '/' do
-  @nombre = params["nombre"]
-  erb :form
+  erb :index
 end
