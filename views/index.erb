@@ -5,11 +5,12 @@
     <title></title>
   </head>
   <body>
-    <h1>Mi cuenta es: <%=@num%></h1>
+    <h1>Abuela Sorda</h1>
 
-    <form action="/" method="get">
-     <input type="hidden" name="num" value="<%= @num %>" />
-     <input type="submit" value="Suma"/>
+    <p>Di algo abuela:</p>
+    <form action="/new" method="post">
+      <input type="text" name="name">
+      <input type="submit" value="Dilo!"/>
     </form>
   </body>
 </html>
